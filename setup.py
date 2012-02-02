@@ -11,6 +11,7 @@ setup(name='gscetterbeek.policy',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
+        "Framework :: Plone",
         "Programming Language :: Python",
         ],
       keywords='',
@@ -28,5 +29,10 @@ setup(name='gscetterbeek.policy',
       ],
       entry_points="""
       # -*- Entry points: -*-
+
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
+      setup_requires=["PasteScript"],
+      paster_plugins=["ZopeSkel"],
       )
