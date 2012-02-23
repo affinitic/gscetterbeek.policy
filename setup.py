@@ -26,6 +26,8 @@ setup(name='gscetterbeek.policy',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'Products.LinguaPlone',
+          'cirb.organizations',
       ],
       entry_points="""
       # -*- Entry points: -*-
@@ -33,6 +35,4 @@ setup(name='gscetterbeek.policy',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
