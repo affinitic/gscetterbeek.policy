@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<import-steps>
+    <import-step id="Organization-install" version="20120209-01"
+        handler="cirb.organizations.setuphandlers.setupOrganizations"
+        title="init Organizations">
+    </import-step>
+</import-steps>
