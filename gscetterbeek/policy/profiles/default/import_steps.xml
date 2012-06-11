@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <import-steps>
-    <import-step id="Organization-install" version="20120209-01"
-        handler="cirb.organizations.setuphandlers.setupOrganizations"
-        title="init Organizations">
+    <import-step id="GSCEtterbeek-install" version="20120605-01"
+        handler="gscetterbeek.policy.setuphandlers.setupGSCEtterbeek"
+        title="init GSCEtterbeek">
     </import-step>
 </import-steps>

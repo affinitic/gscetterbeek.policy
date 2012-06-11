@@ -28,6 +28,7 @@ setup(name='gscetterbeek.policy',
           # -*- Extra requirements: -*-
           'Products.LinguaPlone',
           'cirb.organizations',
+          'plonetheme.gscetterbeek',
       ],
       entry_points="""
       # -*- Entry points: -*-

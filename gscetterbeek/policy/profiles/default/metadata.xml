@@ -4,5 +4,6 @@
     <dependencies>
         <dependency>profile-Products.LinguaPlone:LinguaPlone</dependency>
         <dependency>profile-cirb.organizations:default</dependency>
+        <dependency>profile-plonetheme.gscetterbeek:default</dependency>
     </dependencies>
 </metadata>
