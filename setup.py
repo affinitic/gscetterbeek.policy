@@ -29,6 +29,7 @@ setup(name='gscetterbeek.policy',
           'Products.LinguaPlone',
           'cirb.organizations',
           'plonetheme.gscetterbeek',
+          'Products.PloneFormGen',
       ],
       entry_points="""
       # -*- Entry points: -*-

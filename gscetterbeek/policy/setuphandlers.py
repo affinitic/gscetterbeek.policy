@@ -46,7 +46,7 @@ def setupGSCEtterbeek(context):
         fr = site.fr
         fr.invokeFactory(type_name='Folder',
                 id=FOLDERFR,
-                title="Fiche",
+                title="Fiches",
                 description="",
                 language="fr")
         orgafr = getattr(fr, FOLDERFR)
