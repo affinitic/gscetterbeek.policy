@@ -30,6 +30,7 @@ setup(name='gscetterbeek.policy',
           'cirb.organizations',
           'plonetheme.gscetterbeek',
           'Products.PloneFormGen',
+          'collective.js.datatables',
       ],
       entry_points="""
       # -*- Entry points: -*-
