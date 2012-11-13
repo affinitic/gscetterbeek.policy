@@ -1,0 +1,6 @@
+include *
+
+recursive-include gscetterbeek *
+recursive-include docs *
+
+global-exclude *pyc
